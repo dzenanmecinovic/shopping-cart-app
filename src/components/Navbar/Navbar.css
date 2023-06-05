@@ -1,0 +1,58 @@
+.navbar {
+  height: 15vh;
+  background-color: #2e5b36;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  width: 22%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 100%;
+  padding: 10px;
+}
+
+.activeStyles {
+  padding: 10px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: #000000;
+}
+
+.classicStyles {
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.sale {
+  border: 2px dotted yellow;
+}
+
+.cart-icon-container {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+
+.cart-icon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: 4px;
+}
